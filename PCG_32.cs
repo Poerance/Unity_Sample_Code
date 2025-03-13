@@ -1,4 +1,4 @@
-namespace PCG32 {
+namespace PCG_32 {
   using UnityEngine;
   
   public class PCG32 {
