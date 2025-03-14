@@ -1,3 +1,5 @@
+// TODO Change Loading Screen into dedicated scene
+
 namespace Scene_Loader{
   using System;
   using System.Collections;
