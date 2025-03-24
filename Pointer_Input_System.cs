@@ -6,7 +6,7 @@ namespace Pointer_Input_System {
         private Player_Input playerInput;
         private bool isPressed;
         private bool isTouched;
-        private CircleCollider2D myCollider;
+        private CircleCollider2D myCollider; // Or any collider type
         private Vector2 pointerPosition;
 
         private void Awake() {
@@ -50,7 +50,7 @@ namespace Pointer_Input_System {
 
             pointerPosition = GetPointerPosition();
             if (!isTouched) isTouched = myCollider.OverlapPoint(pointerPosition); // Only check when Mouse is not pressed (OnPointerCanceled has isTouched = false)
-
+            
             if (!isTouched) return; // Basically it's double checking
 
             transform.position = pointerPosition;
