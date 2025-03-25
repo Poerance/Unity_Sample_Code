@@ -1,6 +1,6 @@
-Using [UniTask](https://github.com/Cysharp/UniTask)
+Use [UniTask](https://github.com/Cysharp/UniTask)
 
 - Dash not implemented yet.
-- Using Phyics for base movement logic.
-- Horizontal Move = Rigidbody Velocity.
-- Jump and Wall Jump = Rigidbody Add Force.
+- Use Phyics for basic motion logic.
+- Horizontal movement = Rigidbody velocity.
+- Jump and Wall Jump = Rigidbody Add For
