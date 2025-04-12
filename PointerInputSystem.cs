@@ -1,3 +1,5 @@
+// Used for click and drag main player
+
 namespace Pointer_Input_System {
     using UnityEngine;
 
